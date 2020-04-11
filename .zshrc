@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$PATH:~/.local/bin/
+export PATH=$PATH:~/.local/bin/:/usr/sbin
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/alvaro/.oh-my-zsh"
@@ -10,7 +10,7 @@ export ZSH="/home/alvaro/.oh-my-zsh"
 ZSH_THEME="random"
 
 # Blacklist ugly themes
-ZSH_THEME_RANDOM_BLACKLIST=(darkblood dogenpunk duellj funky jonathan kiwi mikeh rixius xiong-chiamiov-plus)
+ZSH_THEME_RANDOM_BLACKLIST=(darkblood dogenpunk duellj funky jonathan kiwi mikeh rkj rkj-repos rixius xiong-chiamiov-plus)
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -19,4 +19,5 @@ ZSH_THEME_RANDOM_BLACKLIST=(darkblood dogenpunk duellj funky jonathan kiwi mikeh
 plugins=(git vi-mode)
 
 source $ZSH/oh-my-zsh.sh
-source /usr/share/doc/fzf/examples/key-bindings.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
