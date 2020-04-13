@@ -10,7 +10,7 @@ export ZSH="/home/alvaro/.oh-my-zsh"
 ZSH_THEME="random"
 
 # Blacklist ugly themes
-ZSH_THEME_RANDOM_BLACKLIST=(darkblood dogenpunk duellj funky jonathan kiwi mikeh rkj rkj-repos rixius xiong-chiamiov-plus)
+ZSH_THEME_RANDOM_BLACKLIST=(aussiegeek darkblood dogenpunk duellj funky jonathan kiwi mikeh rkj rkj-repos rixius xiong-chiamiov-plus)
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
